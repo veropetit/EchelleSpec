@@ -27,7 +27,7 @@ For the advanced user, it is possible to modify the sara-spec functions for a gi
    :maxdepth: 1
    :caption: API documentation:
 
-TODO list:
+Todo list:
 ===========
 
 .. todolist::
