@@ -1,2 +1,12 @@
 docs-src/build
+notebooks/01-CalibrationMasters
+notebooks/02-ScienceMasters
+notebooks/03-Trace
+notebooks/04-CompositeTrace
+notebooks/05-FlatBackground
+notebooks/06-Blaze
+notebooks/07-ScienceBackground
+notebooks/08-ScienceExtraction
 .DS_Store
+__pycache__/sara_spec.cpython-38.pyc
+notebooks/.ipynb_checkpoints/01-Calibrations-checkpoint.ipynb

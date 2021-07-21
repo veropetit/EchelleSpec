@@ -1,2 +1,5 @@
-My module 1
-============
+sara-spec
+===========
+
+.. automodule:: sara_spec
+    :members:
