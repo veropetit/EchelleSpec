@@ -35,3 +35,16 @@ def write_overscan(length, width, left, right):
     '''
     np.savetxt( '01-CalibrationMasters/overscan.dat', np.array([length, width, left, right], dtype='int').T )
 
+def read_overscan(file='01-CalibrationMasters/overscan.dat'):
+    '''Read in the overscan information written by write_overscan
+    
+    :param file: the name of the overscanfile
+    :returns: length, width, left, right overscan parameters.
+    
+    '''
+    overscan = np.loadtxt(file)
+    length = int(overscan[0])
+    width = int(overscan[1])
+    left = int(overscan[2])
+    right = int(overscan[3])
+    return(length, width, left, right)
